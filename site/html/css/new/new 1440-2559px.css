@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: contain;
+}
+  
+html, body {
+    height: 100%;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a:visited {
+    color: #00f;
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+    header {
+        background-color: #fff;
+        display: flex;
+        flex: 2;
+    }
+
+    header div {
+        display: flex;
+    }
+
+    .title {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .title img {
+        height: 80%;
+        padding: 1%;
+    }
+
+    .title h1 {
+        font-size: 120%;
+    }
+
+    .navigation {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    .navigation a {
+        display: flex;
+        flex: 1;
+        height: 40%;
+        margin: 2%;
+    }
+
+    .navigation a p {
+        color: #00f;
+        border: 3px solid #f00;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .navigation a p:hover {
+        color: #f00;
+        font-size: 140%;
+    }
+
+    section {
+        display: flex;
+        flex: 12;
+    }
+
+    section div {
+        display: flex;
+        flex: 4;
+        flex-direction: column;
+    }
+
+    .border {
+        background-color: #0ff;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .border img {
+        padding: 2%;
+    }
+
+    .new {
+        background-color: #ff0;
+        display: flex;
+        flex: 12;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .new div {
+        background-color: #fff;
+        display: flex;
+        width: 90%;
+        margin: 2%;
+        flex-direction: row;
+    }
+
+    .new div a {
+        display: flex;
+        margin: 3%;
+        align-items: center;
+    }
+
+    .new div a:hover {
+        transform: scale(1.1);
+    }
+
+    .new div a img {
+        height: 100%;
+        padding: 0%;
+    }
+
+    .new div p {
+        flex: 1;
+        font-size: 180%;
+        text-align: center;
+        align-content: center;
+    }
+
+    .new div .description {
+        flex: 2;
+        font-size: 80%;
+        text-align: start;
+        padding: 3%;
+    }
+
+    footer {
+        background-color: #f00;
+        display: flex;
+        flex: 1;
+    }
+
+    footer a {
+        padding: 0.5%;
+        height: 100%;
+        width: 100%;
+    }
+
+    footer a div {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    footer a div img {
+        height: 100%;
+    }
+
+    footer a div p {
+        height: 100%;
+        flex: 1;
+        text-align: center;
+        align-content: center;
+        font-size: 110%;
+    }
+
+    footer a div p:hover {
+        color: #f00;
+        font-size: 130%;
+    }
+}

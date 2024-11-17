@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: contain;
+}
+  
+html, body {
+    height: 100%;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a:visited {
+    color: #00f;
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+    header {
+        background-color: #fff;
+        display: flex;
+        flex: 2;
+    }
+
+    header div {
+        display: flex;
+    }
+
+    .title {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .title img {
+        height: 80%;
+        padding: 1%;
+    }
+
+    .title h1 {
+        font-size: 120%;
+    }
+
+    .navigation {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    .navigation a {
+        display: flex;
+        flex: 1;
+        height: 40%;
+        margin: 2%;
+    }
+
+    .navigation a p {
+        color: #00f;
+        border: 3px solid #f00;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .navigation a p:hover {
+        color: #f00;
+        font-size: 140%;
+    }
+
+    section {
+        display: flex;
+        flex: 12;
+    }
+
+    .banner {
+        background-color: #0f0;
+        flex: 1;
+        align-content: center;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    section section {
+        display: flex;
+        flex: 4;
+        flex-direction: column;
+    }
+
+    .series {
+        background-color: #ff0;
+        flex: 12;
+        overflow-y: auto
+    }
+
+    .series div {
+        display: flex;
+        padding: 1%;
+    }
+
+    .series div div {
+        background-color: #fff;
+        display: flex;
+        flex: 1;
+        height: 100%;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .series div div a {
+        display: flex;
+    }
+
+    .series div div a:hover {
+        transform: scale(1.1);
+    }
+
+    .series div div a img {
+        width: 100%;
+    }
+
+    .series div div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    footer {
+        background-color: #f00;
+        display: flex;
+        flex: 1;
+    }
+
+    footer a {
+        padding: 0.5%;
+        height: 100%;
+        width: 100%;
+    }
+
+    footer a div {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    footer a div img {
+        height: 100%;
+    }
+
+    footer a div p {
+        height: 100%;
+        flex: 1;
+        text-align: center;
+        align-content: center;
+        font-size: 110%;
+    }
+
+    footer a div p:hover {
+        color: #f00;
+        font-size: 130%;
+    }
+}
